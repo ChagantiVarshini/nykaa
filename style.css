@@ -1,0 +1,674 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.top {
+    background-image: url("https://images-static.naikaa.com/media/wysiwyg/2021/common-strip.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.toptext {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 17%;
+    padding-right: 40%;
+}
+
+.toptext:hover {
+    color: #E80071;
+}
+
+.top span {
+    color: black;
+    font-size: 14px;
+}
+
+.top span:hover {
+    color: white;
+}
+
+.navbar {
+    margin-bottom: -1%;
+}
+
+.nykaa-logo {
+    height: 32px;
+    margin-left: 100%;
+}
+
+.navbar-nav {
+    margin-left: 7%;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    color: #111;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e91e63;
+}
+
+.search-box {
+    width: 230px;
+    margin-left: -60%;
+}
+
+.search-box input {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 6px;
+    height: 36px;
+    font-size: 14px;
+}
+
+.sec3 {
+    padding-bottom: 1%;
+}
+
+.d-flex button {
+    background-color: #e91e63;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 14px;
+}
+
+.fa-bag-shopping {
+    color: black;
+}
+
+.sec3 .navbar {
+    margin-top: -1%;
+}
+
+.sec3 .navbar-nav a {
+    color: #686776;
+}
+
+.sec3 .navbar-nav {
+    padding-left: 4%;
+}
+
+.oneimg img {
+    width: 99vw;
+}
+
+.buttonn .carousel-control-prev,
+.buttonn .carousel-control-next {
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    margin: 1%;
+}
+
+.buttonn .carousel-control-prev-icon,
+.buttonn .carousel-control-next-icon {
+    width: 12px;
+    height: 12px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.buttonn .carousel-control-prev-icon {
+    transform: rotate(135deg);
+}
+
+.buttonn .carousel-control-next-icon {
+    transform: rotate(-45deg);
+}
+
+.card-group {
+    display: flex;
+    border: none;
+    background-color: rgb(255 253 228);
+}
+
+.card-group .card {
+    background-color: rgb(255 253 228);
+
+}
+
+.card {
+    border: none !important;
+
+}
+
+.card1 {
+    border: none !important;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+
+.sec6 {
+    width: 99vw;
+    background-color: rgb(254 232 208);
+}
+
+.sec6 .row {
+    padding: 1% 2% 0% 2%;
+    background-color: rgb(254 232 208);
+    width: 99vw;
+
+}
+
+.abfooter .card-body {
+    font-size: small;
+}
+
+.abfooter .card-body h6 {
+    text-transform: uppercase;
+    font-size: small;
+
+}
+
+.abfooter {
+    display: flex;
+    flex-direction: row;
+}
+
+#imgside {
+    padding-top: 30px;
+    padding-left: 35px;
+}
+
+.card-body {
+    scale: 0.9;
+}
+
+.abfooter hr {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.abfooter {
+    padding-left: 14%;
+}
+
+.cls {
+    display: flex;
+    flex-direction: row;
+    scale: 0.5;
+}
+
+.cls img {
+    margin-top: -70%;
+}
+
+.hff {
+    background-color: #fff2fb;
+}
+
+.hffimg {
+    padding: 1%;
+}
+
+.hff .card-title {
+    background-color: #fff2fb;
+    padding-top: 2%;
+    margin-bottom: 0%;
+}
+
+.gb .card-title {
+    background-color: rgb(255 251 229);
+    margin-bottom: 0%;
+}
+.sm .card-title {
+    background-color: rgb(254 236 250);
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+#sulbtn {
+    background-color: #E80071;
+    border: 1px solid white;
+    width: 100%;
+    font-size: x-large;
+    padding: 0.5%;
+    border-radius: 10px;
+}
+
+.divimg1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divimg2 {
+    display: flex;
+    flex-direction: row;
+    scale: 0.7;
+}
+
+.sul .card-title {
+    padding-top: 3%;
+}
+
+.playstore {
+    background-color: rgb(58 64 71);
+}
+
+.playstore .col {
+    color: white;
+}
+
+.playstore input::placeholder {
+    color: white;
+}
+
+.n .col a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+.n .col span a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    padding-bottom: 8%;
+}
+
+.n {
+    background-color: rgb(140 141 148);
+    padding: 5%;
+}
+
+.footer .card-header {
+    text-align: center;
+    color: white;
+    background-color: #E80071;
+    font-size: small;
+}
+
+.footer .card-header a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+.footer .card-header p {
+    padding-top: 1%;
+    margin-bottom: -0.5%;
+}
+
+.footer h5 {
+    color: rgb(140 141 148);
+}
+
+.footer .card-text {
+    color: rgb(140 141 160);
+}
+
+.footer .card-body {
+    padding-left: 10%;
+}
+.sss .card-title{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+   margin-top: 3%;
+}
+
+
+
+/* -------------------- SECTION HEADINGS -------------------- */
+.promo-title,
+.section-title,
+.strip-title {
+  color: #e91e63;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 1px 1px #ffc0cb;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* -------------------- BLAZING BEAUTY SECTION -------------------- */
+.promo-container {
+  padding: 20px;
+  background-color: #ffffff;
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+.promo-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.promo-box {
+  width: 160px;
+  text-align: center;
+}
+
+.promo-box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.promo-box p {
+  font-size: 18px;
+  color: #444;
+}
+
+/* -------------------- FLAMING HOT BEAUTY -------------------- */
+.flaming-hot-section {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 40px 0;
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+.flaming-hot-row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flaming-hot-row img {
+  width: 33.3333%;
+  display: block;
+  
+}
+
+/* -------------------- LUXURY BRANDS -------------------- */
+.luxury-brands-section {
+  background-color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+  max-width: 100vw;
+  margin: 0 auto;
+}
+.luxury-brands-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.luxury-box {
+  width: 220px;
+  text-align: center;
+}
+
+.luxury-box img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.luxury-box p {
+  font-size: 20px;
+  color: #111;
+}
+
+/* -------------------- SENSORIAL SIZZLING SCENTS -------------------- */
+.sizzling-scents-section {
+  /* padding: 30px 20px; */
+  width: 99vw;
+  margin: 0 auto;
+}
+
+.sizzling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0;
+  /* width: 100vw !important; */
+background: linear-gradient(to bottom, white ,#fff5df);
+margin-left: 3%;
+margin-right: 3%;
+}
+
+.sizzling-banner {
+  width: 230px;
+  padding-top: 8px;
+  /* border-right: 1px solid #e0cfcf; */
+  text-align: center;
+}
+
+.sizzling-banner img {
+  width: 100%;
+  height: auto;
+   /* background: linear-gradient(to bottom, white ,#fff5df); */
+}
+
+.sizzling-tiles {
+  display: flex;
+  overflow-x: auto;
+  flex: 1;
+  /* gap: 20px; */
+  padding-top: 20px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sizzling-tiles::-webkit-scrollbar {
+  display: none;
+}
+
+.sizzling-box {
+  flex: 0 0 auto;
+  width: 230px;
+  text-align: center;
+   background: linear-gradient(to bottom, white ,#fff5df);
+}
+
+.sizzling-box img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.sizzling-box p {
+  font-size: 14px;
+  color: #333;
+  margin-top: 8px;
+}
+
+.imgLuxe{
+    width: 100%;
+}
+
+/* -------------------- NEW AT NYKAA -------------------- */
+.img1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2px ;
+}
+
+.img1 img {
+  width: 100%;
+  max-width: 100vw;
+  border-radius: 10px;
+}
+
+/* -------------------- IMAGE SCROLL SECTION -------------------- */
+.img2 {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 20px;
+  background-color: #ffecfa;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  max-width: 99vw;
+  margin: 0 auto;
+}
+
+.img2::-webkit-scrollbar {
+  display: none;
+}
+
+.img-card {
+  flex: 0 0 auto;
+  width: 250px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.img-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* -------------------- STRIP SECTION -------------------- */
+.strip {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.strip-row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.strip-row::-webkit-scrollbar {
+  display: none;
+}
+
+.strip-box {
+  flex: 0 0 auto;
+  width: 160px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.strip-box img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.strip-box p {
+  font-size: 13px;
+  color: #444;
+}
+
+.imgn{
+    width: 100%;
+}
+
+/* -------------------- DEALS HEADINGS -------------------- */
+.deals-heading img,
+.img img {
+  width: 99vw;
+  /* max-width: 100%; */
+  display: block;
+}
+.strip-box{
+    width: 250px;
+}
+.strip{
+    margin-left: 3%;
+}
+.strip-row{
+    width: 110%;
+}
+
+/* -------------------- RESPONSIVENESS -------------------- */
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+  .promo-box,
+  .luxury-box,
+  .sizzling-box,
+  .strip-box,
+  .img-card {
+    width: 45%;
+  }
+
+  .flaming-hot-row {
+    flex-direction: column;
+  }
+
+  .flaming-hot-row img {
+    width: 100%;
+  }
+
+  .sizzling-wrapper {
+    flex-direction: column;
+  }
+
+  .sizzling-banner {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e0cfcf;
+  }
+
+  .sizzling-tiles {
+    padding-top: 10px;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  .promo-title,
+  .section-title,
+  .strip-title {
+    font-size: 22px;
+  }
+
+  .promo-box,
+  .luxury-box,
+  .sizzling-box,
+  .strip-box,
+  .img-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .promo-row,
+  .luxury-brands-row,
+  .strip-row,
+  .img2 {
+    gap: 15px;
+  }
+
+  .sizzling-wrapper {
+    gap: 10px;
+  }
+
+  .img1 img {
+    border-radius: 6px;
+  }
+}
+
+
+
+
