@@ -389,8 +389,10 @@
 }
 
 .flaming-hot-row {
-  display: flex;
-  flex-wrap: nowrap;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
 .flaming-hot-row img {
@@ -671,4 +673,37 @@ margin-right: 3%;
 
 
 
+@media (max-width: 768px) {
+    .divimg2 img {
+        width: 100px;
+    }
 
+    .card-body h4 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .divimg2 {
+        justify-content: center;
+    }
+
+    .divimg2 img {
+        width: 80px;
+    }
+
+    .card-body h4 {
+        font-size: 0.9rem;
+    }
+
+    #sulbtn {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .flaming-hot-row img {
+        width: 100%;
+    }
+}
