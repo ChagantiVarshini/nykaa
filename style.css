@@ -701,7 +701,13 @@ margin-right: 3%;
 }
 
 @media (max-width: 480px) {
-    .flaming-hot-row img {
-        width: 100%;
+    .search-box{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .search-box{
+        display: none;
     }
 }
